@@ -2,6 +2,25 @@
 
 个人学术网站 | Personal Academic Website
 
+## 🎯 快速编辑内容
+
+**所有网站内容都在 `data.json` 文件中！** 只需编辑这一个文件即可更新整个网站。
+
+```bash
+# 编辑内容
+open data.json   # 或用任意编辑器打开
+```
+
+`data.json` 包含：
+- `profile` - 姓名、职位、机构、邮箱
+- `about` - 个人简介
+- `links` - 社交/学术链接
+- `research` - 研究方向和关键词
+- `publications` - 发表物列表
+- `contact` - 联系信息
+
+---
+
 ## 本地预览
 
 ```bash

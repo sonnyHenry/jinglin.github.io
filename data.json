@@ -1,0 +1,113 @@
+{
+  "_comment": "========== 网站配置文件 ==========",
+  "_instructions": "编辑下方内容即可更新网站，保存后刷新页面查看效果",
+  "profile": {
+    "_comment": "基本信息",
+    "name_en": "Jing Lin",
+    "name_cn": "林靓",
+    "title": "Postdoctoral Researcher",
+    "institution": "Stanford Graduate School of Business",
+    "photo": "assets/images/profile.jpg",
+    "email": "jinglin1@stanford.edu"
+  },
+  "about": {
+    "_comment": "个人简介，每个引号内的内容是一个段落",
+    "bio": [
+      "I am a Postdoctoral Researcher at the Stanford Graduate School of Business. My research focuses on [在此填写研究重点].",
+      "Prior to joining Stanford, I [在此填写教育背景/工作经历]."
+    ]
+  },
+  "links": {
+    "_comment": "社交/学术链接，留空则不显示",
+    "google_scholar": "https://scholar.google.com/citations?user=Wo7_aAwAAAAJ&hl=zh-CN",
+    "linkedin": "https://www.linkedin.com/in/jing-lin-5a81b8109/",
+    "github": "",
+    "orcid": "",
+    "twitter": ""
+  },
+  "contact": {
+    "_comment": "联系地址，分三行显示",
+    "office": {
+      "line1": "Stanford Graduate School of Business",
+      "line2": "655 Knight Way",
+      "line3": "Stanford, CA 94305"
+    }
+  },
+  "research": {
+    "_comment": "研究方向",
+    "intro": "My research interests lie at the intersection of [在此填写研究领域]. I am particularly interested in [在此填写具体兴趣].",
+    "_comment_areas": "研究方向列表，可添加或删除",
+    "areas": [
+      {
+        "title": "研究方向 1 标题",
+        "description": "研究方向 1 的详细描述",
+        "keywords": [
+          "关键词1",
+          "关键词2",
+          "关键词3"
+        ]
+      },
+      {
+        "title": "研究方向 2 标题",
+        "description": "研究方向 2 的详细描述",
+        "keywords": [
+          "关键词1",
+          "关键词2",
+          "关键词3"
+        ]
+      },
+      {
+        "title": "研究方向 3 标题",
+        "description": "研究方向 3 的详细描述",
+        "keywords": [
+          "关键词1",
+          "关键词2",
+          "关键词3"
+        ]
+      }
+    ]
+  },
+  "publications": {
+    "_comment": "发表物列表",
+    "_comment_journal": "期刊论文 - pdf 和 doi 留空则不显示链接",
+    "journal_articles": [
+      {
+        "title": "论文标题",
+        "authors": [
+          "作者1",
+          "Jing Lin",
+          "作者3"
+        ],
+        "venue": "期刊名称",
+        "year": 2024,
+        "volume": "卷(期)",
+        "pages": "页码范围",
+        "pdf": "",
+        "doi": ""
+      }
+    ],
+    "_comment_working": "工作论文",
+    "working_papers": [
+      {
+        "title": "工作论文标题",
+        "authors": [
+          "Jing Lin",
+          "合作者"
+        ],
+        "status": "Under Review"
+      }
+    ],
+    "_comment_conf": "会议报告",
+    "conferences": [
+      {
+        "title": "会议报告标题",
+        "authors": [
+          "Jing Lin"
+        ],
+        "venue": "会议名称",
+        "location": "城市, 国家",
+        "year": 2024
+      }
+    ]
+  }
+}
