@@ -1,8 +1,5 @@
 {
-  "_comment": "========== 网站配置文件 ==========",
-  "_instructions": "编辑下方内容即可更新网站，保存后刷新页面查看效果",
   "profile": {
-    "_comment": "基本信息",
     "name_en": "Jing Lin",
     "name_cn": "林靓",
     "title": "Postdoctoral Researcher",
@@ -11,14 +8,12 @@
     "email": "jinglin1@stanford.edu"
   },
   "about": {
-    "_comment": "个人简介，每个引号内的内容是一个段落",
     "bio": [
-      "I am a Postdoctoral Researcher at the Stanford Graduate School of Business. My research focuses on [在此填写研究重点].",
-      "Prior to joining Stanford, I [在此填写教育背景/工作经历]."
+      "I am a Postdoctoral Researcher at Stanford Graduate School of Business, working with Professor Michele J. Gelfand. My research examines human prosocial behavior—including trust, cooperation, and charitable giving—and punishment across cultures, investigating how social structures shape interpersonal behaviors through multi-level analyses of individual and group dynamics.",
+      "I received my Ph.D. in Social Psychology from Beijing Normal University (2024), where I studied under Professor Kou Yu. My dissertation explored how economic inequality influences philanthropy. Previously, I was a Postdoctoral Researcher at Vrije Universiteit Amsterdam with Professor Daniel Balliet."
     ]
   },
   "links": {
-    "_comment": "社交/学术链接，留空则不显示",
     "google_scholar": "https://scholar.google.com/citations?user=Wo7_aAwAAAAJ&hl=zh-CN",
     "linkedin": "https://www.linkedin.com/in/jing-lin-5a81b8109/",
     "github": "",
@@ -26,7 +21,6 @@
     "twitter": ""
   },
   "contact": {
-    "_comment": "联系地址，分三行显示",
     "office": {
       "line1": "Stanford Graduate School of Business",
       "line2": "655 Knight Way",
@@ -34,80 +28,203 @@
     }
   },
   "research": {
-    "_comment": "研究方向",
-    "intro": "My research interests lie at the intersection of [在此填写研究领域]. I am particularly interested in [在此填写具体兴趣].",
-    "_comment_areas": "研究方向列表，可添加或删除",
+    "intro": "My research interests lie at the intersection of social psychology, cultural psychology, and behavioral economics. I am particularly interested in understanding how macro-level social structures—such as economic inequality—shape individual prosocial behaviors like trust, cooperation, and charitable giving across different cultural contexts.",
     "areas": [
       {
-        "title": "研究方向 1 标题",
-        "description": "研究方向 1 的详细描述",
+        "title": "Economic Inequality and Prosocial Behavior",
+        "description": "Investigating how economic inequality influences charitable giving, trust, and cooperation. My dissertation examined the psychological mechanisms through which inequality affects philanthropy, including the mediating role of interpersonal trust.",
         "keywords": [
-          "关键词1",
-          "关键词2",
-          "关键词3"
+          "Economic Inequality",
+          "Charitable Donations",
+          "Interpersonal Trust",
+          "Redistribution Preferences"
         ]
       },
       {
-        "title": "研究方向 2 标题",
-        "description": "研究方向 2 的详细描述",
+        "title": "Cross-Cultural Psychology",
+        "description": "Examining how cultural factors shape prosocial behavior and punishment across societies. This includes multi-level investigations of how social structures influence interpersonal behaviors through individual and group dynamics.",
         "keywords": [
-          "关键词1",
-          "关键词2",
-          "关键词3"
+          "Cross-Cultural Comparison",
+          "Cultural Tightness-Looseness",
+          "Cooperation",
+          "Punishment"
         ]
       },
       {
-        "title": "研究方向 3 标题",
-        "description": "研究方向 3 的详细描述",
+        "title": "Quantitative Methods in Psychology",
+        "description": "Applying advanced methodological approaches including longitudinal modeling (MLM, LGCM, GMM), experimental designs using economic games, structural equation modeling, and computational methods to study social behavior.",
         "keywords": [
-          "关键词1",
-          "关键词2",
-          "关键词3"
+          "Longitudinal Modeling",
+          "Economic Games",
+          "Machine Learning",
+          "Open Science"
         ]
       }
     ]
   },
   "publications": {
-    "_comment": "发表物列表",
-    "_comment_journal": "期刊论文 - pdf 和 doi 留空则不显示链接",
     "journal_articles": [
       {
-        "title": "论文标题",
+        "title": "When and why does economic inequality predict prosocial behaviour? Examining the role of interpersonal trust among different targets",
         "authors": [
-          "作者1",
           "Jing Lin",
-          "作者3"
+          "W. Li",
+          "Z. Guo",
+          "Y. Kou"
         ],
-        "venue": "期刊名称",
+        "venue": "European Journal of Social Psychology",
+        "year": 2023,
+        "volume": "54(1)",
+        "pages": "136-153",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "Unpacking the factors influencing preferences for redistribution: The controllability attribution of wealth and poverty",
+        "authors": [
+          "L. Ouyang",
+          "Jing Lin",
+          "P. Sun",
+          "Y. Kou"
+        ],
+        "venue": "Asian Journal of Social Psychology",
+        "year": 2025,
+        "volume": "28",
+        "pages": "e70054",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "The impact of increasing subjective economic inequality on prosocial behavior development: The longitudinal mediating effect of trust and moderating effect of socioeconomic status",
+        "authors": [
+          "L.-X. Wang",
+          "Y. Ding",
+          "Jing Lin",
+          "X. Shi",
+          "Y. Huang",
+          "Y. Kou"
+        ],
+        "venue": "Journal of Youth and Adolescence",
+        "year": 2025,
+        "volume": "54",
+        "pages": "1845-1861",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "Longitudinal relations between perceived economic inequality and prosocial behavior among Chinese adolescents: The mediating role of system justification",
+        "authors": [
+          "W. Li",
+          "J. Wu",
+          "Y. Yang",
+          "M. Yuan",
+          "Jing Lin",
+          "Y. Kou"
+        ],
+        "venue": "Children and Youth Services Review",
+        "year": 2023,
+        "volume": "155",
+        "pages": "107316",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "A network approach to understanding core dimensions of adolescents' prosocial behaviour",
+        "authors": [
+          "Jing Lin",
+          "B. Xu",
+          "Y. Yang",
+          "Q. Zhang",
+          "Y. Kou"
+        ],
+        "venue": "Acta Psychologica Sinica",
         "year": 2024,
-        "volume": "卷(期)",
-        "pages": "页码范围",
+        "volume": "56(9)",
+        "pages": "1252-1265",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "The changes in cooperation among strangers in China: A cross-temporal meta-analysis of social dilemmas (1999–2019)",
+        "authors": [
+          "M. Yuan",
+          "J. Wu",
+          "S. Jin",
+          "Jing Lin",
+          "Y. Kou",
+          "P. A. M. Van Lange"
+        ],
+        "venue": "Acta Psychologica Sinica",
+        "year": 2024,
+        "volume": "56(6)",
+        "pages": "1-17",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "The trend in donation behavior in China over the past decade: An age-period-cohort effects analysis",
+        "authors": [
+          "L.-X. Wang",
+          "Jing Lin",
+          "Y. Kou"
+        ],
+        "venue": "Psychological Development and Education",
+        "year": 2025,
+        "volume": "",
+        "pages": "in press",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "The longitudinal relationships between sleep problems and internalizing and externalizing symptoms in early adolescents: A cross-lagged panel network analysis",
+        "authors": [
+          "X. Liu",
+          "C. Ma",
+          "L. Niu",
+          "Jing Lin"
+        ],
+        "venue": "Development and Psychopathology",
+        "year": 2025,
+        "volume": "",
+        "pages": "1-12",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "Underlying mechanisms in the relationship between family socioeconomic status and mathematical abilities: A longitudinal investigation",
+        "authors": [
+          "X. Zhu",
+          "Y. Tang",
+          "S. Wang",
+          "X. Ma",
+          "Jing Lin",
+          "Q. Chai",
+          "X. Zhao"
+        ],
+        "venue": "Cognitive Development",
+        "year": 2025,
+        "volume": "75",
+        "pages": "101591",
+        "pdf": "",
+        "doi": ""
+      },
+      {
+        "title": "Algorithmic anthropomorphism and AI moral standing: The moderating role of mortality salience",
+        "authors": [
+          "Q. Xie",
+          "Jing Lin",
+          "Y. Ding",
+          "Y. Kou"
+        ],
+        "venue": "Death Studies",
+        "year": 2025,
+        "volume": "",
+        "pages": "1-9",
         "pdf": "",
         "doi": ""
       }
     ],
-    "_comment_working": "工作论文",
-    "working_papers": [
-      {
-        "title": "工作论文标题",
-        "authors": [
-          "Jing Lin",
-          "合作者"
-        ],
-        "status": "Under Review"
-      }
-    ],
-    "_comment_conf": "会议报告",
-    "conferences": [
-      {
-        "title": "会议报告标题",
-        "authors": [
-          "Jing Lin"
-        ],
-        "venue": "会议名称",
-        "location": "城市, 国家",
-        "year": 2024
-      }
-    ]
+    "working_papers": [],
+    "conferences": []
   }
 }
